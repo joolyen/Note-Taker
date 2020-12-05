@@ -4,13 +4,12 @@
 #### https://joolyen.github.io/Note-Taker/
 
 ## Description
-This is a CLI app to build teams based off of team members defined by the end user. 
+An application that can be used to write, save, and delete notes. This application uses an express backend and save and retrieve note data from a JSON file.
 
 ## Technologies Used: 
-Javascript, Node.js, NPM Packages (Inquirer, Jest) 
+Javascript, Node.js, Express 
 
-## Click on image for video demo
-[![Watch the video](https://img.youtube.com/vi/Xqiip6fwh5I/maxresdefault.jpg)](https://youtu.be/Xqiip6fwh5I)
+[![Watch the video](./assets/img/note-taker.png)]
 
 ## Table of Contents:
 * [1. Installation](#installation)
@@ -21,10 +20,10 @@ Javascript, Node.js, NPM Packages (Inquirer, Jest)
 * [6. Questions](#questions)
 
 ### 1. Installation
-Download code to local computer and run npm install in console and then enter 'node app.js' to run application. 
+Download code to local computer and run npm install in console and then enter 'node server.js' to run application. 
 
 ### 2. Usage
-Navtigate to the folder it's housed in within Git Bash or your native console, npm install an then run node app.js
+Once you install and run you go to localhost:2377 to run on your local machine and you have a note tacker.
 
 ### 3. License
 see below
@@ -33,7 +32,7 @@ see below
 Julian Ivey
 
 ### 5. Tests
-Enter npm run test to run unit tests
+Local testing during build
 
 ### 6. Questions
 With any questions send an e-mail to joolyen@gmail.com or visit to review files https://github.com/joolyen

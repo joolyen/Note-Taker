@@ -12,7 +12,7 @@ An application that can be used to write, save, and delete notes. This applicati
 Javascript, Node.js, Express 
 
 ## Screenshot
-[![screenshot](./public/assets/img/note-taker.png)]
+![screenshot](./public/assets/img/note-taker.png)
 
 ## Table of Contents:
 * [1. Installation](#installation)

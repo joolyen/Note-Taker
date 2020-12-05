@@ -2,6 +2,8 @@
 
 #### https://github.com/joolyen/Note-Taker/ 
 #### https://joolyen.github.io/Note-Taker/
+#### https://taker-notes.herokuapp.com/
+#### https://taker-notes.herokuapp.com/bubbles
 
 ## Description
 An application that can be used to write, save, and delete notes. This application uses an express backend and save and retrieve note data from a JSON file.
@@ -9,7 +11,8 @@ An application that can be used to write, save, and delete notes. This applicati
 ## Technologies Used: 
 Javascript, Node.js, Express 
 
-[![Watch the video](./assets/img/note-taker.png)]
+## Screenshot
+[![screenshot](./public/assets/img/note-taker.png)]
 
 ## Table of Contents:
 * [1. Installation](#installation)

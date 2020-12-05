@@ -45,16 +45,16 @@ var characters = [
 // Basic route that sends the user first to the AJAX Page
 app.get("*", function(req, res) {
   // res.send("Welcome to the Star Wars Page!")
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 app.get("/notes", function(req, res) {
   // res.send("Welcome to the Star Wars Page!")
-  res.sendFile(path.join(__dirname, "notes.html"));
+  res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
 
 // Displays all characters
-app.get("/api/characters", function(req, res) {
+app.get("/api/notes", function(req, res) {
   return res.json(characters);
 });
 
